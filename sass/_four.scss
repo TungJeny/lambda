@@ -1,0 +1,57 @@
+.block-four {
+    height: 994px;
+    background-image: url(../images/background2.png);
+    background-repeat: repeat-y;
+    &__feed {
+        &__menu {
+            p {
+                color: #cc9900;
+                font-size: 21px;
+                width: 49%;
+                float: left;
+                font-family: 'Yeseva One', cursive;
+            }
+        }
+        &-item {
+            &__vien1 {
+                img {
+                    margin-bottom: 21px;
+                }
+            }
+            &__gach {
+                margin-bottom: 0px;
+                display: block;
+                img {
+                    width: 100%;
+                    margin-bottom: 13px;
+                }
+            }
+            &__content {
+                font-size: 14px;
+                font-family: 'Lato', sans-serif;
+                margin-bottom: 33px;
+            }
+        }
+    }
+    & &__title {
+        h4 {
+            font-weight: bold;
+            font-family: 'Yeseva One', cursive;
+            font-size: 36px;
+            color: #cc9900;
+            margin-bottom: 13px;
+        }
+    }
+    & &__container {
+        margin: 100px 0px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .block-four {
+        height: auto;
+        & &__container {
+            margin: 60px 0px;
+        }
+    }
+}

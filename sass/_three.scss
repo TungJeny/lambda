@@ -1,0 +1,57 @@
+.block-three {
+    height: 758px;
+    background-image: url(../images/baner-next2.png);
+    & &__container {
+        margin: 100px 0px;
+        h4 {
+            font-size: 36px;
+            font-family: 'Yeseva One', cursive;
+            color: #ffffff;
+        }
+        p {
+            img {
+                margin-bottom: 30px;
+                color: #ffffff;
+            }
+        }
+        p {
+            color: #ffffff;
+            line-height: 21px;
+        }
+    }
+    &__all-img {
+        margin-top: 70px;
+        img {
+            margin-right: 12px;
+        }
+    }
+    &__col6 {
+        padding-top: 69px;
+        padding-left: 70px;
+        padding-right: 70px;
+        background: rgba(3, 4, 4, 0.67);
+        padding-bottom: 91px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .block-three {
+        height: auto;
+        & &__container {
+            margin: 50px 0px;
+        }
+        &__all-img {
+            img {
+                width: 27%;
+                float: left;
+            }
+        }
+        &__col6 {
+            padding-top: 43px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background: rgba(3, 4, 4, 0.67);
+            padding-bottom: 43px;
+        }
+    }
+}

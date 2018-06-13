@@ -1,0 +1,39 @@
+.block-second {
+    height: 710px;
+    background-image: url(../images/background1.png);
+    &__img {
+        img {
+            width: 100%;
+        }
+    }
+    &__left {
+        h4 {
+            font-size: 36px;
+            font-family: 'Yeseva One', cursive;
+            color: #cc9900;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 16px;
+            font-family: 'Lato', sans-serif;
+            line-height: 21px;
+        }
+        p {
+            img {
+                margin-bottom: 32px;
+            }
+        }
+    }
+    &__container {
+        margin: 100px 0px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .block-second {
+        height: auto;
+        &__container {
+            margin: 50px 0px;
+        }
+    }
+}

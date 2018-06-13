@@ -1,0 +1,22 @@
+.footer {
+    height: 320px;
+    background: #191919;
+    h5 {
+        color: #fefefe;
+    }
+    p {
+        color: #ffffff;
+    }
+    i {
+        color: #ffffff;
+    }
+    &__content {
+        margin: 52px 0px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .footer {
+        height: auto;
+    }
+}
